@@ -1,0 +1,18 @@
+.button {
+    display: block;
+    color: var(--color-primary-light);
+    background-color: var(--color-brand-normal);
+    border: 2px solid var(--color-brand-normal);
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: 600;
+    padding: 16px 32px;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+    background-color: var(--color-primary-light);
+    border-color: var(--color-brand-normal);
+    color: var(--color-brand-dark);
+
+}
